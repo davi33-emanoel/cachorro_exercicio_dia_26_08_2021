@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:lightcoral;
+}
+.container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    margin-top:200px;
+    gap: 25px;
+}
+button{
+    font-size:18px;
+    padding: 10px;
+    border:none;
+    border-radius: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:seashell;
+    color:sienna;
+    cursor:grab;
+}
+button:hover{
+    font-size:25px;
+    transition:all  ease-in-out 0.4s;
+}
